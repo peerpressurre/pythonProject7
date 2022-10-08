@@ -3,7 +3,7 @@ try:
     start = 1
     sum = 1
 
-    for i in range(start,num):
+    while sum <= num:
         sum *= start
         start += 1
     print(f'{sum}')
