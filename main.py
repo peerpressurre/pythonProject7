@@ -1,15 +1,10 @@
 try:
     num = int(input('Enter number->'))
     start = 1
-    sum = 1
+    factorial = 1
 
-    while sum <= num:
-        sum *= start
-        start += 1
-    print(f'{sum}')
+    for item in range(1, num+1):
+        factorial *= item
+    print(f'{factorial}')
 except Exception as ex:
     print(f'Error information: {ex}')
-
-
-
-
